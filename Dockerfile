@@ -1,4 +1,4 @@
-ARG VERSION_NODE=14.17-alpine3.11
+ARG VERSION_NODE=16.10-alpine3.11
 
 FROM node:${VERSION_NODE} 
 RUN apk add --no-cache gnupg gettext
